@@ -1,0 +1,31 @@
+<?php
+
+namespace {{namespace}};
+
+class {{handler}}
+{
+    /**
+     * Handle message.
+     *
+     * @param PhpAmqpLib\Message\AMQPMessage $msg
+     *
+     * @return void
+     */
+    public function handle($msg)
+    {
+        //
+    }
+
+    /**
+     * Handle error
+     *
+     * @param \Exception                    $e
+     * @param UniversalTechnology\Bowler\MessageBroker  $broker
+     *
+     * @return void
+     */
+    public function handleError($e, $broker)
+    {
+        //
+    }
+}
